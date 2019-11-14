@@ -49,7 +49,6 @@ class ServerUtil {
                     var body = response.body!!.string()
                     var json = JSONObject(body)
                     handler?.onResponse(json)
-
                 }
 
             })
